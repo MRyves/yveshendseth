@@ -1,0 +1,22 @@
+{
+  "name": "yveshendseth",
+  "version": "1.0.0",
+  "description": "personal cv website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRyves/yveshendseth.git"
+  },
+  "author": "Yves Hendseth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MRyves/yveshendseth/issues"
+  },
+  "homepage": "https://github.com/MRyves/yveshendseth#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

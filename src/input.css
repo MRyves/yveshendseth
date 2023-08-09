@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 61, 60, 66;
+    --background-rgb: 254, 251, 246;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 180, 165, 165;
+        --background-rgb: 21, 21, 21;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background-color: rgb(var(--background-rgb));
+    height: 100vh;
+}
+
+@layer components {
+    .page-container {
+        @apply h-full max-w-screen-xl mx-auto px-3 md:px-10;
+    }
+
+    .navbar {
+        @apply h-16 flex justify-between items-center text-xl font-rokkitt;
+    }
+
+    .logo {
+        @apply md:w-1/2 xl:w-3/5;
+    }
+
+    .links {
+        @apply hidden md:flex w-full justify-between
+    }
+
+    .burger {
+        @apply lg:hidden relative;
+    }
+
+    .burger-button {
+        @apply w-10 h-10 relative focus:outline-none;
+    }
+    
+}
